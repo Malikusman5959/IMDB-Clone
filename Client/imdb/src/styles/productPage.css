@@ -1,0 +1,98 @@
+.product-page {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 80%;
+    height: auto;
+    text-align: left;
+    font-family: arial;
+    background-color: rgb(22, 22, 22);
+    border: 1px solid black;
+    border-radius: 2%;
+  }
+
+  .left-div
+  {
+      width: 35%;
+      height: auto;
+      display: inline-block;
+    color: white;
+
+
+  }
+
+  .right-div
+  {
+      width: 60%;
+      height: auto;
+      float: right;
+      margin-right: 8px;
+      margin-top: 15px;
+      text-align: left;
+      color: white;
+
+  }
+
+  .right-div h3{
+
+    font-size: 15px;
+    font-weight: 100;
+
+  }
+
+  .right-div .bold
+  {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(13, 138, 221);
+  }
+
+  .product-page img{
+    object-fit: cover;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 5px;
+    margin-left: 15px;
+    border-radius: 5%;
+  }
+
+  
+  .product-page .btn {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 20%;
+    color: white;
+    margin: 5px;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 10%;
+    font-size: 18px;
+  }
+
+    
+  .comment-btn {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5%;
+    color: white;
+    margin: 5px;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+  }
+  
+  .comment-btn:hover {
+    opacity: 0.7;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+  }
+  
+  .product-page .btn:hover {
+    opacity: 0.7;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+  }
